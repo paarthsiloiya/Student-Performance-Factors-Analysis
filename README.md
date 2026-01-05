@@ -31,6 +31,9 @@ This dataset provides a comprehensive overview of various factors affecting stud
 | **Gender** | Gender of the student (Male, Female). |
 | **Exam_Score** | Final exam score. |
 
+### Link
+[https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
+
 ## Project Overview
 This project analyzes various factors affecting student performance, including:
 - Study habits (Hours Studied, Attendance)
@@ -42,6 +45,19 @@ This project analyzes various factors affecting student performance, including:
 1. **Data Cleaning**: Handling missing values and duplicates.
 2. **EDA**: Univariate, Bivariate, and Multivariate analysis using Violin plots, Histograms, and Pairplots.
 3. **Correlation Analysis**: Identifying key drivers of exam scores.
+4. **Machine Learning**: Training a Random Forest Regressor to predict exam scores.
+5. **Model Evaluation**: Assessing performance using R², RMSE, and MAE.
+
+## Model Performance
+The Random Forest Regressor achieved the following results:
+- **R² Score**: 0.62 (Explains 62% of the variance in exam scores)
+- **MAE**: 1.18
+- **RMSE**: 2.43
+
+## Key Insights
+- **Attendance** and **Hours Studied** are the strongest predictors of academic success.
+- **Previous Scores** also show a significant positive correlation.
+- Socio-economic factors like **Parental Education** and **Distance from Home** showed minimal direct impact in this model compared to student engagement metrics.
 
 ## Technologies Used
 - Python
