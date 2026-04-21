@@ -1,0 +1,22 @@
+# Data Dictionary
+
+- **Hours_Studied**: int64
+- **Attendance**: int64
+- **Parental_Involvement**: str
+- **Access_to_Resources**: str
+- **Extracurricular_Activities**: str
+- **Sleep_Hours**: int64
+- **Previous_Scores**: int64
+- **Motivation_Level**: str
+- **Internet_Access**: str
+- **Tutoring_Sessions**: int64
+- **Family_Income**: str
+- **Teacher_Quality**: str
+- **School_Type**: str
+- **Peer_Influence**: str
+- **Physical_Activity**: int64
+- **Learning_Disabilities**: str
+- **Parental_Education_Level**: str
+- **Distance_from_Home**: str
+- **Gender**: str
+- **Exam_Score**: int64
