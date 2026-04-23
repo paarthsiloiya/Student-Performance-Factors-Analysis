@@ -1,0 +1,25 @@
+{
+    "LogisticRegression": {
+        "best_params": {
+            "classifier__C": 10.0
+        },
+        "cv_auc_mean": 0.9950603726363703,
+        "cv_auc_std": 0.0013535529333862162,
+        "accuracy": 0.9827455728772514,
+        "f1": 0.9824641435951116,
+        "roc_auc": 0.9953027586174776,
+        "brier_score": 0.018339289387135763
+    },
+    "GradientBoosting": {
+        "best_params": {
+            "classifier__max_depth": 5,
+            "classifier__n_estimators": 100
+        },
+        "cv_auc_mean": 0.9791012116853224,
+        "cv_auc_std": 0.0030265849250778426,
+        "accuracy": 0.9850158922355078,
+        "f1": 0.9847720862579168,
+        "roc_auc": 0.9977342356398661,
+        "brier_score": 0.02321162909510059
+    }
+}
